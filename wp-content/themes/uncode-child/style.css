@@ -1,0 +1,190 @@
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+@font-face{
+font-family: 'Perpetua';
+src: url('Perpetua.eot');
+src: url('Perpetua.eot?#iefix') format('embedded-opentype'),
+url('Perpetua.woff') format('woff'),
+url('Perpetua.ttf') format('truetype'),
+url('Perpetua.svg#webfont') format('svg');
+}
+@font-face{
+font-family: 'Perpetua-Italic';
+src: url('Perpetua-Italic.eot');
+src: url('Perpetua-Italic.eot?#iefix') format('embedded-opentype'),
+url('Perpetua-Italic.woff') format('woff'),
+url('Perpetua-Italic.ttf') format('truetype'),
+url('Perpetua-Italic.svg#webfont') format('svg');
+}
+@font-face{
+font-family: 'Perpetua-Bold';
+src: url('Perpetua-Bold.eot');
+src: url('Perpetua-Bold.eot?#iefix') format('embedded-opentype'),
+url('Perpetua-Bold.woff') format('woff'),
+url('Perpetua-Bold.ttf') format('truetype'),
+url('Perpetua-Bold.svg#webfont') format('svg');
+}
+/* Menu height */
+.logo-container.col-lg-0 {
+ padding: 10px 10px;
+}
+/* MAILCHIMP PLUGIN FORM */
+.mc4wp-form-fields input[type="submit"] {
+    background-color: black!important;
+    width: 100%;
+}
+.mc4wp-form-fields input[type="email"] {
+    background-color: rgb(88, 88, 88);
+    width: 100%!important;
+}
+/*  FOOTER */
+footer .footer-center {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer .footer-last p,.site-footer p, .site-footer li, .site-footer dt, .site-footer dd, .site-footer dl, .site-footer address, .site-footer label, .site-footer small, .site-footer pre, .site-footer code, aside p, aside li, aside dt, aside dd, aside dl, aside address, aside label, aside small, aside pre, aside code,input, textarea, select, .seldiv, .select2-choice,input[type="submit"], input[type="reset"], input[type="button"], button[type="submit"] {
+    font-size: 15px;
+}
+
+/*formulaire page contact*/
+table {
+    border: none;
+    border-collapse: inherit;
+}
+
+table td{
+    border:0px;
+    padding:0px;
+}
+
+.style-dark input{
+    background-color: rgb(53, 54, 52);
+}
+
+.style-dark textarea{
+    background-color: rgb(53, 54, 52);
+}
+
+input, textarea{
+    padding:8px 15px 8px 15px;
+    border:0px;
+    border-color:transparent;
+}
+
+textarea{
+    width:80%;
+}
+
+.style-dark input[type="submit"]{
+    background-color:#353634!important;
+}
+
+.wpcf7-form .cel50 {
+display:inline-block;
+float:left;
+
+}
+
+.wpcf7-form .cel50:nth-child(even) {
+float:right!important;
+}
+
+select{
+    width:62%!important;
+    min-width: 60%!important;
+}
+
+.wpcf7-form-control.g-recaptcha.wpcf7-recaptcha {
+    margin-top: 30px;
+}
+
+/* TEXT IN BG YELLOW */
+.section-clair p,.section-clair p a, .section-clair p strong, .section-clair h3, .section-clair .event-date {
+    color: #040609;
+}
+
+/* EVENTS */
+.single-event #page-header {
+    display: none;
+}
+.single-event .post-body,.page-id-707 .post-body,.page-id-711 .post-body,.page-id-714 .post-body {
+    background-color: #fffef0;
+}
+.single-event .post-body p, .single-event p strong,.single-event .time,.single-event .event-date,.page-id-707 .css-events-list,.page-id-711 .css-events-list,.page-id-714 .css-events-list {
+    color: black;
+}
+
+/*HOME PAGE*/
+.home.page h1 {
+    line-height: 0.9;
+}
+/*PARAGRA*/
+p {
+    line-height: 22px;
+}
+/*Widget*/
+.widget-container .widget-title{
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-size: 24px;
+    text-transform: none;
+    color:black;
+    padding:0px;
+}
+
+.widget-container .widget-title {
+    color: white!important;
+}
+
+footer .widget-container .widget-title {
+    border: 0;
+    padding: 0;
+    margin: 0px 0px 10px 0px;
+}
+
+.widget-container.widget_nav_menu li a{
+    font-size:14px;
+}
+
+.aside li{
+    font-size:0px!important;
+}
+
+.post-content ul{
+    padding:0px;
+}
+
+div.em-calendar-wrapper{
+    color:black;
+}
+
+table.em-calendar td.eventful a{
+    color:#c30d2e;
+}
+
+table.em-calendar td.eventless-today{
+    background-color: #C30E2F;
+    color: white;
+}
+
+/* DIVIDER */
+.main-container .row-container .row-parent .single-internal-gutter .uncont > *{
+    margin-top:10px;
+}
+/* TITLE OVERIDE */
+h1{
+    font-weight:100!important;
+}
+
+
+
+
+
+
