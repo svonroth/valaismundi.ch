@@ -544,7 +544,7 @@ get_header();
 		                jQuery(".loc-title").text(title);
 		                jQuery(".loc-text").html(text);
 		                backButton.show();
-		                //vider la liste
+		                //vide
 
 		            };
 		        })(marker, i));

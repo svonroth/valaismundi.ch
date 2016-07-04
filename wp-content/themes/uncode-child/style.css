@@ -183,7 +183,118 @@ h1{
     font-weight:100!important;
 }
 
+/*EVENT*/
 
+.event-date{
+    font-size:17px;
+    font-weight:600;
+    font-family: Perpetua;
+    color:black!important;
+}
+
+.event-month{
+    font-size:19px;
+    font-weight:400;
+    font-family: Perpetua;
+    color:black!important;
+}
+
+.event-title{
+    font-size:19px;
+    font-family: Perpetua;
+    color:black!important;
+}
+
+.event-title-big{
+    font-size:24px;
+    font-family: Perpetua;
+    color:black!important;
+}
+
+.event-sidebar{
+   color:black!important;
+}
+
+.time{
+    color:black!important;
+}
+
+.event_location{
+    color:black!important;
+}
+
+.notes{
+     color:black;
+}
+
+.notes strong{
+    color:black!important;
+}
+
+.notes a {
+    color: black!important;
+}
+
+
+.row-navigation.row-navigation-dark {
+    display: none;
+}
+
+.col-lg-1{
+    padding:0px;
+}
+
+.col-lg-6{
+    padding:0px;
+}
+
+hr {
+    margin: 8px 0 0 0;
+}
+
+/*table.em-calendar td.eventful a {
+    color: #FFFFFF!important;
+}*/
+
+table.em-calendar td.eventful-today a{
+    color: #6D6D6D!important;
+}
+
+table.em-calendar td.eventful-pre a{
+    color:#000000!important;
+}
+.section-clair{background-color:#fffef1;}
+
+/*BLOG  */
+.pl-title a {
+    text-transform: none;
+    font-family: Perpetua, serif;
+}
+.pl-gridlayout .pl-detailcnt,.pl-detailcnt .pl-title {
+    padding: 0px 0px!important;
+}
+.pl-detailcnt .pl-permalink-t2 {
+    margin-top: 0px!important;
+    padding: 0px 0px!important;
+}
+.pl_grid_id_6625 .pl-col .pl-detailcnt .pl-title a:hover, .pl_grid_id_6625 .pl-col .pl-detailcnt .pl-permalink-t2:hover, .pl_grid_id_6625 .pl-col .pl-permalink:hover, .pl_grid_id_6625 .pl-col .pl-postcomment a:hover, .pl_grid_id_6625 .pl-mask h4 a:hover, .loadmore_id_6625 a.load-more-link:hover {
+    color: #999a99!important;
+}
+.pl_grid_id_6892 .pl-text, .pl_grid_id_6892 .pl-mask p {
+    font-size: 19px!important;
+}
+.row-inner div[class*=col-lg-] {
+    font-size: 17px;
+}
+h1.header-title.h1, .style-light .header-main-container .post-info {
+    color: rgba(255, 255, 255, 0.8);
+}
+.style-dark-bg.post {
+    background-color: #fffef1;
+}
+.single-post .style-dark p {
+    color:black;
+}
 
 
 
